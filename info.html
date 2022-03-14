@@ -7,16 +7,31 @@
 </head>
 <body>
     <div>
-        <header>
-            <nav>
-                    <li><a href="index.html">Xela Hotel</a></li>
-                    <li><a href="info.html">Info</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="dining.html">Dining</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <!--===================NAVIGATION===================-->
+        <header class="header">
+            <nav class="mynav">
+                <div class="mynav__container">
+                    <ul class="mynav__container__navlist">
+                        <li class="mynav__container__navlist__navitem">
+                            <a class="mynav__container__navlist__navitem__item" href="index.html">Xela Hotel</a>
+                        </li>
+                        <li class="mynav__container__navlist__navitem">
+                            <a class="mynav__container__navlist__navitem__item" href="info.html">Info</a>
+                        </li>
+                        <li class="mynav__container__navlist__navitem">
+                            <a class="mynav__container__navlist__navitem__item" href="rooms.html">Rooms</a>
+                        </li>
+                        <li class="mynav__container__navlist__navitem">
+                            <a class="mynav__container__navlist__navitem__item" href="dining.html">Dining</a>
+                        </li>
+                        <li class="mynav__container__navlist__navitem">
+                            <a class="mynav__container__navlist__navitem__item" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-        </header>
-        <main>
+        </header> 
+        <main class="containerall">
             <article>
                 <h1>Essential Info</h1>
                 <section id="arrivalinfo">
@@ -80,12 +95,21 @@
             </aside>
         </main>
 
-        <footer >
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img " src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+        <!--===================FOOTER===================-->
+        <footer>
+            <div class="socialmedia">
+                <ul class="socialmedia__container">
+                    <li>
+                        <a href="https://twitter.com"><img class="socialmedia__container_img" src="assets/social/twitter.png" alt="icon for twitter"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com"><img class="socialmedia__container_img" src="assets/social/facebook.png" alt="icon for facebook"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com"><img  class="socialmedia__container_img" src="assets/social/youtube.png" alt="icon for youtube"></a>
+                    </li>
                 </ul>
+            </div>
         </footer>
     </div>
 </body>

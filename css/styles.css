@@ -21,13 +21,18 @@ body{
 .mynav__container__navlist{
     list-style: none;
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 .mynav__container__navlist__navitem__item{
     color: white;
     text-decoration: none;
 }
+.mynav__container__navlist__navitem_img{
+    width: 20px;
+    height: 20px;
+}
+
 
 .gallery{
     text-align: center;
